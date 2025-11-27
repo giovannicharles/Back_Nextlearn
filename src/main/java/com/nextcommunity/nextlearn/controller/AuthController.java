@@ -1,14 +1,6 @@
 package com.nextcommunity.nextlearn.controller;
 
-
-<<<<<<< HEAD
-import com.nextcommunity.nextlearn.dto.AuthRequest;
-import com.nextcommunity.nextlearn.dto.RegisterRequest;
-import com.nextcommunity.nextlearn.dto.TokenRefreshRequest;
-import com.nextcommunity.nextlearn.dto.TokenRefreshResponse;
-=======
 import com.nextcommunity.nextlearn.dto.*;
->>>>>>> 465e66e (update backend NextLearn)
 import com.nextcommunity.nextlearn.entity.User;
 import com.nextcommunity.nextlearn.repository.UserRepository;
 import com.nextcommunity.nextlearn.services.jwt.JwtService;
@@ -26,14 +18,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-<<<<<<< HEAD
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-=======
 import java.util.*;
->>>>>>> 465e66e (update backend NextLearn)
 
 @RestController
 @RequestMapping("nextlearn/auth")
@@ -53,34 +38,15 @@ public class AuthController {
 
     @Autowired
     private UserRepository userRepository;
-<<<<<<< HEAD
-/*
-    @Autowired
-    private AdminService adminService;
-=======
 
->>>>>>> 465e66e (update backend NextLearn)
 
     // Création d'un compte admin s'il n'existe pas (à appeler manuellement une fois)
-   @PostMapping("/")
-    public void createAdminAccount(){
-<<<<<<< HEAD
-        User adminAccount= userRepository.findByUserrole("ADMIN");
-        if (adminAccount==null){
-            User newAdminAccount= new User();
-            newAdminAccount.setName("admin");
-            newAdminAccount.setEmail("admin@gmail.com");
-            newAdminAccount.setPassword(encoder.encode("admin123"));
-            newAdminAccount.setUserrole("ADMIN");
-            userRepository.save(newAdminAccount);
-            System.out.println("Admin account created successfully");
-        }
-    }*/
-=======
-        Optional<User> adminAccount= userRepository.findByUserrole("ADMIN");
+    @PostMapping("/")
+    public void createAdminAccount() {
+        Optional<User> adminAccount = userRepository.findByUserrole("ADMIN");
         System.out.println("test");
-        if (adminAccount.isEmpty()){
-            User newAdminAccount= new User();
+        if (adminAccount.isEmpty()) {
+            User newAdminAccount = new User();
             newAdminAccount.setNom("Giovanni");
             newAdminAccount.setPrenom("Charles");
             newAdminAccount.setClasse("Licence 3");
@@ -91,7 +57,6 @@ public class AuthController {
             System.out.println("Admin account created successfully");
         }
     }
->>>>>>> 465e66e (update backend NextLearn)
 
     // Connexion - Retourne access et refresh tokens
     @PostMapping(value = "/login", produces = "application/json")
@@ -121,68 +86,28 @@ public class AuthController {
                             List.of(new SimpleGrantedAuthority("ROLE_" + user.getUserrole()))
                     ));
 
-            // Rôle utilisateur dans une liste
-<<<<<<< HEAD
-            List<String> roles = List.of(user.getUserrole());
-
-=======
-            String userrole = user.getUserrole();
             //Utilisateur connecté
-            UserDto userDto= new UserDto();
+            UserDto userDto = new UserDto();
             userDto.setId(user.getId_user());
             userDto.setNom(user.getNom());
             userDto.setPrenom(user.getPrenom());
             userDto.setClasse(user.getClasse());
             userDto.setEmail(user.getEmail());
->>>>>>> 465e66e (update backend NextLearn)
+
             // Corps de la réponse
             Map<String, Object> responseBody = new HashMap<>();
             responseBody.put("accessToken", accessToken);
             responseBody.put("refreshToken", refreshToken);
-<<<<<<< HEAD
-            responseBody.put("roles", roles);
-=======
-            responseBody.put("userrole", userrole);
-            responseBody.put("userDto", userDto);
->>>>>>> 465e66e (update backend NextLearn)
+            responseBody.put("role", user.getUserrole());
+            responseBody.put("user", userDto);
 
             return ResponseEntity.ok(responseBody);
 
         } catch (BadCredentialsException ex) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
-                    .body(Map.of("error", "Email ou mot de passe incorrect"));
-        } catch (UsernameNotFoundException ex) {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
-                    .body(Map.of("error", "Utilisateur non trouvé"));
-        } catch (Exception ex) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                    .body(Map.of("error", "Erreur interne serveur"));
+                    .body(Map.of("error", "Identifiants incorrects"));
         }
     }
-
-    // Enregistrement utilisateur
-    @PostMapping("/register")
-    public ResponseEntity<?> register(@RequestBody RegisterRequest req) {
-        if (userRepo.existsByEmail(req.getEmail())) {
-            return ResponseEntity
-                    .badRequest()
-                    .body(Map.of("message", "Email déjà utilisé"));
-        }
-
-        User newUser = new User();
-        newUser.setNom(req.getNom());
-        newUser.setPrenom(req.getPrenom());
-        newUser.setClasse(req.getClasse());
-        newUser.setEmail(req.getEmail());
-        newUser.setPassword(encoder.encode(req.getPassword()));
-        newUser.setUserrole(Objects.requireNonNullElse(req.getUserrole(), "ETUDIANT"));
-        userRepo.save(newUser);
-
-        return ResponseEntity
-                .ok(Map.of("message", "Inscription réussie"));
-    }
-
-
     // Endpoint pour rafraîchir l'access token en utilisant le refresh token
     @PostMapping("/refresh")
     public ResponseEntity<?> refreshAccessToken(@RequestBody TokenRefreshRequest request) {
