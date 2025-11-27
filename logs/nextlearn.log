@@ -1,0 +1,405 @@
+<<<<<<< HEAD
+2025-11-23T01:16:05.210+01:00  INFO 33292 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Starting NextlearnApplication using Java 25.0.1 with PID 33292 (D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\nextlearn\target\classes started by GIOVANNI CHARLES in D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\nextlearn)
+2025-11-23T01:16:05.214+01:00  INFO 33292 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-23T01:16:05.284+01:00  INFO 33292 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-23T01:16:05.285+01:00  INFO 33292 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-23T01:16:06.322+01:00  INFO 33292 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23T01:16:06.420+01:00  INFO 33292 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+2025-11-23T01:16:07.433+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-11-23T01:16:07.453+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-23T01:16:07.454+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-23T01:16:07.560+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-23T01:16:07.561+01:00  INFO 33292 --- [nextlearn] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2275 ms
+2025-11-23T01:16:07.785+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-23T01:16:07.850+01:00  INFO 33292 --- [nextlearn] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-23T01:16:07.897+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-23T01:16:08.271+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23T01:16:08.306+01:00  INFO 33292 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-23T01:16:08.499+01:00  INFO 33292 --- [nextlearn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12b34e2d
+2025-11-23T01:16:08.502+01:00  INFO 33292 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-23T01:16:08.570+01:00  WARN 33292 --- [nextlearn] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-11-23T01:16:08.596+01:00  INFO 33292 --- [nextlearn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+=======
+2025-11-27T09:18:42.365+01:00  WARN 904 --- [nextlearn] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a7e507e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-27T09:19:05.741+01:00  WARN 904 --- [nextlearn] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@489c8c5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-27T09:19:12.501+01:00  WARN 904 --- [nextlearn] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2e50337f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-27T09:19:33.007+01:00  WARN 904 --- [nextlearn] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c75ed7e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-27T09:19:40.391+01:00  WARN 904 --- [nextlearn] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5df5c0c8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-27T09:19:43.285+01:00  WARN 904 --- [nextlearn] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e3c8d42 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-27T09:20:06.126+01:00  WARN 904 --- [nextlearn] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@42205405 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-27T09:20:10.998+01:00  WARN 904 --- [nextlearn] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30cc5329 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-27T09:20:31.144+01:00  WARN 904 --- [nextlearn] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6ac09eef (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-27T09:20:32.471+01:00  WARN 904 --- [nextlearn] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a68d5e0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-27T12:58:11.026+01:00  INFO 904 --- [nextlearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-27T12:58:11.080+01:00  INFO 904 --- [nextlearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-27T12:58:11.111+01:00  INFO 904 --- [nextlearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T12:58:11.172+01:00  INFO 904 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-27T12:58:11.182+01:00  INFO 904 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-27T12:58:20.872+01:00  INFO 8880 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Starting NextlearnApplication using Java 25.0.1 with PID 8880 (D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\Developpement\nextlearnbackend_spring\target\classes started by GIOVANNI CHARLES in D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\Developpement\nextlearnbackend_spring)
+2025-11-27T12:58:20.879+01:00  INFO 8880 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T12:58:21.070+01:00  INFO 8880 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-27T12:58:21.070+01:00  INFO 8880 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-27T12:58:23.379+01:00  INFO 8880 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27T12:58:23.661+01:00  INFO 8880 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 249 ms. Found 3 JPA repository interfaces.
+2025-11-27T12:58:25.245+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-11-27T12:58:25.280+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-27T12:58:25.281+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-27T12:58:25.384+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-27T12:58:25.385+01:00  INFO 8880 --- [nextlearn] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4314 ms
+2025-11-27T12:58:25.746+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27T12:58:25.919+01:00  INFO 8880 --- [nextlearn] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-27T12:58:26.053+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-27T12:58:26.819+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27T12:58:26.901+01:00  INFO 8880 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-27T12:58:27.259+01:00  INFO 8880 --- [nextlearn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a2456cd
+2025-11-27T12:58:27.262+01:00  INFO 8880 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-27T12:58:27.369+01:00  WARN 8880 --- [nextlearn] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-11-27T12:58:27.423+01:00  INFO 8880 --- [nextlearn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+>>>>>>> 465e66e (update backend NextLearn)
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+<<<<<<< HEAD
+2025-11-23T01:16:09.493+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-23T01:16:09.638+01:00  INFO 33292 --- [nextlearn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23T01:16:10.235+01:00  INFO 33292 --- [nextlearn] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-11-23T01:16:10.236+01:00  WARN 33292 --- [nextlearn] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-11-23T01:16:10.451+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-23T01:16:11.234+01:00  WARN 33292 --- [nextlearn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23T01:16:12.027+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-23T01:16:12.070+01:00  INFO 33292 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-11-23T01:16:12.082+01:00  INFO 33292 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Started NextlearnApplication in 7.513 seconds (process running for 8.188)
+2025-11-23T01:17:28.165+01:00  INFO 33292 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-23T01:17:28.165+01:00  INFO 33292 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-23T01:17:28.166+01:00  INFO 33292 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-23T01:17:28.288+01:00  INFO 33292 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-2] c.n.nextlearn.controller.QuizController  : Début de la génération de quiz avec les critères: QuizCriteriaDTO(subject=thermodynamique, semester=1, type=cours, nombreQuestions=10)
+2025-11-23T01:17:28.423+01:00  INFO 33292 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-2] c.n.nextlearn.controller.QuizController  : Documents trouvés: 1
+2025-11-23T01:17:28.424+01:00  INFO 33292 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-2] c.n.nextlearn.controller.QuizController  : Texte extrait des documents (longueur: 274 caractères)
+2025-11-23T01:18:18.093+01:00  INFO 33292 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-2] c.n.nextlearn.controller.QuizController  : Quiz généré par l'IA (longueur: 2802 caractères)
+2025-11-23T01:18:18.170+01:00  INFO 33292 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-2] c.n.nextlearn.controller.QuizController  : Quiz sauvegardé avec l'ID: 11
+2025-11-23T01:20:31.885+01:00  INFO 33292 --- [nextlearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-23T01:20:31.893+01:00  INFO 33292 --- [nextlearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-23T01:20:31.899+01:00  INFO 33292 --- [nextlearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23T01:20:31.904+01:00  INFO 33292 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-23T01:20:31.911+01:00  INFO 33292 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-23T01:20:36.466+01:00  INFO 10784 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Starting NextlearnApplication using Java 25.0.1 with PID 10784 (D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\nextlearn\target\classes started by GIOVANNI CHARLES in D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\nextlearn)
+2025-11-23T01:20:36.469+01:00  INFO 10784 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-23T01:20:36.535+01:00  INFO 10784 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-23T01:20:36.536+01:00  INFO 10784 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-23T01:20:37.496+01:00  INFO 10784 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23T01:20:37.587+01:00  INFO 10784 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2025-11-23T01:20:38.465+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-11-23T01:20:38.488+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-23T01:20:38.489+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-23T01:20:38.581+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-23T01:20:38.582+01:00  INFO 10784 --- [nextlearn] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2046 ms
+2025-11-23T01:20:38.832+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-23T01:20:38.902+01:00  INFO 10784 --- [nextlearn] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-23T01:20:38.955+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-23T01:20:39.279+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23T01:20:39.314+01:00  INFO 10784 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-23T01:20:39.510+01:00  INFO 10784 --- [nextlearn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4010570
+2025-11-23T01:20:39.513+01:00  INFO 10784 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-23T01:20:39.574+01:00  WARN 10784 --- [nextlearn] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-11-23T01:20:39.601+01:00  INFO 10784 --- [nextlearn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+=======
+2025-11-27T12:58:29.419+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27T12:58:29.656+01:00  INFO 8880 --- [nextlearn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T12:58:30.656+01:00  INFO 8880 --- [nextlearn] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-11-27T12:58:30.658+01:00  WARN 8880 --- [nextlearn] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-11-27T12:58:30.892+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-27T12:58:31.829+01:00  WARN 8880 --- [nextlearn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27T12:58:32.881+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-27T12:58:32.938+01:00  INFO 8880 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-11-27T12:58:32.961+01:00  INFO 8880 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Started NextlearnApplication in 13.357 seconds (process running for 14.72)
+2025-11-27T13:02:17.494+01:00  INFO 8880 --- [nextlearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-27T13:02:17.511+01:00  INFO 8880 --- [nextlearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-27T13:02:17.522+01:00  INFO 8880 --- [nextlearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T13:02:17.530+01:00  INFO 8880 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-27T13:02:17.545+01:00  INFO 8880 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-27T13:02:25.127+01:00  INFO 10068 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Starting NextlearnApplication using Java 25.0.1 with PID 10068 (D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\Developpement\nextlearnbackend_spring\target\classes started by GIOVANNI CHARLES in D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\Developpement\nextlearnbackend_spring)
+2025-11-27T13:02:25.133+01:00  INFO 10068 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T13:02:25.257+01:00  INFO 10068 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-27T13:02:25.258+01:00  INFO 10068 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-27T13:02:27.010+01:00  INFO 10068 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27T13:02:27.195+01:00  INFO 10068 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165 ms. Found 3 JPA repository interfaces.
+2025-11-27T13:02:28.666+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-11-27T13:02:28.702+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-27T13:02:28.703+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-27T13:02:28.811+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-27T13:02:28.812+01:00  INFO 10068 --- [nextlearn] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3553 ms
+2025-11-27T13:02:29.187+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27T13:02:29.316+01:00  INFO 10068 --- [nextlearn] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-27T13:02:29.392+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-27T13:02:30.139+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27T13:02:30.195+01:00  INFO 10068 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-27T13:02:30.538+01:00  INFO 10068 --- [nextlearn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b89061a
+2025-11-27T13:02:30.541+01:00  INFO 10068 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-27T13:02:30.639+01:00  WARN 10068 --- [nextlearn] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-11-27T13:02:30.685+01:00  INFO 10068 --- [nextlearn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+>>>>>>> 465e66e (update backend NextLearn)
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+<<<<<<< HEAD
+2025-11-23T01:20:40.477+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-23T01:20:40.577+01:00  INFO 10784 --- [nextlearn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23T01:20:41.123+01:00  INFO 10784 --- [nextlearn] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-11-23T01:20:41.125+01:00  WARN 10784 --- [nextlearn] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-11-23T01:20:41.313+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-23T01:20:41.818+01:00  WARN 10784 --- [nextlearn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23T01:20:42.467+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-23T01:20:42.506+01:00  INFO 10784 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-11-23T01:20:42.516+01:00  INFO 10784 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Started NextlearnApplication in 6.692 seconds (process running for 7.469)
+2025-11-23T01:20:48.289+01:00  INFO 10784 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-23T01:20:48.290+01:00  INFO 10784 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-23T01:20:48.291+01:00  INFO 10784 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-23T01:20:48.395+01:00  INFO 10784 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] c.n.nextlearn.controller.QuizController  : Début de la génération de quiz avec les critères: QuizCriteriaDTO(subject=thermodynamique, semester=1, type=cours, nombreQuestions=10)
+2025-11-23T01:20:48.508+01:00  INFO 10784 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] c.n.nextlearn.controller.QuizController  : Documents trouvés: 1
+2025-11-23T01:20:48.509+01:00  INFO 10784 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] c.n.nextlearn.controller.QuizController  : Texte extrait des documents (longueur: === Document: gfhgjhkjlkm ===
+Matière: thermodynamique
+Type: cours
+Semestre: S1
+Description: dfgfyghjklhgf
+Contenu:
+Le chemin spécifié est un répertoire, pas un fichier: D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\nextlearn\uploads\documents\2023-2024\thermodynamique\cours
+
+---
+ caractères)
+2025-11-23T01:21:29.481+01:00  INFO 10784 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] c.n.nextlearn.controller.QuizController  : Quiz généré par l'IA (longueur: 2830 caractères)
+2025-11-23T01:21:29.552+01:00  INFO 10784 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] c.n.nextlearn.controller.QuizController  : Quiz sauvegardé avec l'ID: 12
+2025-11-23T01:29:24.899+01:00  INFO 10784 --- [nextlearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-23T01:29:24.908+01:00  INFO 10784 --- [nextlearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-23T01:29:24.914+01:00  INFO 10784 --- [nextlearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23T01:29:24.918+01:00  INFO 10784 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-23T01:29:24.928+01:00  INFO 10784 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-23T01:29:29.967+01:00  INFO 34200 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Starting NextlearnApplication using Java 25.0.1 with PID 34200 (D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\nextlearn\target\classes started by GIOVANNI CHARLES in D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\nextlearn)
+2025-11-23T01:29:29.970+01:00  INFO 34200 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-23T01:29:30.029+01:00  INFO 34200 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-23T01:29:30.029+01:00  INFO 34200 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-23T01:29:31.149+01:00  INFO 34200 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23T01:29:31.248+01:00  INFO 34200 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+2025-11-23T01:29:32.201+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-11-23T01:29:32.225+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-23T01:29:32.226+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-23T01:29:32.303+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-23T01:29:32.304+01:00  INFO 34200 --- [nextlearn] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2274 ms
+2025-11-23T01:29:32.535+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-23T01:29:32.600+01:00  INFO 34200 --- [nextlearn] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-23T01:29:32.651+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-23T01:29:33.015+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23T01:29:33.050+01:00  INFO 34200 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-23T01:29:33.277+01:00  INFO 34200 --- [nextlearn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c7a5ce6
+2025-11-23T01:29:33.280+01:00  INFO 34200 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-23T01:29:33.363+01:00  WARN 34200 --- [nextlearn] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-11-23T01:29:33.425+01:00  INFO 34200 --- [nextlearn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+=======
+2025-11-27T13:02:32.392+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27T13:02:32.562+01:00  INFO 10068 --- [nextlearn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T13:02:33.469+01:00  INFO 10068 --- [nextlearn] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-11-27T13:02:33.471+01:00  WARN 10068 --- [nextlearn] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-11-27T13:02:33.689+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-27T13:02:34.586+01:00  WARN 10068 --- [nextlearn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27T13:02:35.680+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-27T13:02:35.747+01:00  INFO 10068 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-11-27T13:02:35.767+01:00  INFO 10068 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Started NextlearnApplication in 11.802 seconds (process running for 12.946)
+2025-11-27T13:15:48.232+01:00  INFO 10068 --- [nextlearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-27T13:15:48.241+01:00  INFO 10068 --- [nextlearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-27T13:15:48.247+01:00  INFO 10068 --- [nextlearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T13:15:48.252+01:00  INFO 10068 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-27T13:15:48.267+01:00  INFO 10068 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-27T13:15:52.987+01:00  INFO 26304 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Starting NextlearnApplication using Java 25.0.1 with PID 26304 (D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\Developpement\nextlearnbackend_spring\target\classes started by GIOVANNI CHARLES in D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\Developpement\nextlearnbackend_spring)
+2025-11-27T13:15:52.991+01:00  INFO 26304 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T13:15:53.047+01:00  INFO 26304 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-27T13:15:53.047+01:00  INFO 26304 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-27T13:15:54.037+01:00  INFO 26304 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27T13:15:54.125+01:00  INFO 26304 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+2025-11-27T13:15:55.074+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-11-27T13:15:55.094+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-27T13:15:55.095+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-27T13:15:55.150+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-27T13:15:55.150+01:00  INFO 26304 --- [nextlearn] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2102 ms
+2025-11-27T13:15:55.380+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27T13:15:55.446+01:00  INFO 26304 --- [nextlearn] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-27T13:15:55.489+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-27T13:15:55.970+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27T13:15:56.006+01:00  INFO 26304 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-27T13:15:56.214+01:00  INFO 26304 --- [nextlearn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c52e1dd
+2025-11-27T13:15:56.217+01:00  INFO 26304 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-27T13:15:56.276+01:00  WARN 26304 --- [nextlearn] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-11-27T13:15:56.305+01:00  INFO 26304 --- [nextlearn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+>>>>>>> 465e66e (update backend NextLearn)
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+<<<<<<< HEAD
+2025-11-23T01:29:34.351+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-23T01:29:34.450+01:00  INFO 34200 --- [nextlearn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23T01:29:34.950+01:00  INFO 34200 --- [nextlearn] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-11-23T01:29:34.951+01:00  WARN 34200 --- [nextlearn] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-11-23T01:29:35.066+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-23T01:29:35.550+01:00  WARN 34200 --- [nextlearn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23T01:29:36.127+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-23T01:29:36.164+01:00  INFO 34200 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-11-23T01:29:36.174+01:00  INFO 34200 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Started NextlearnApplication in 6.853 seconds (process running for 7.505)
+2025-11-23T01:30:59.670+01:00  INFO 34200 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-23T01:30:59.671+01:00  INFO 34200 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-23T01:30:59.672+01:00  INFO 34200 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-23T01:30:59.779+01:00  INFO 34200 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] c.n.nextlearn.controller.QuizController  : Début de la génération de quiz avec les critères: QuizCriteriaDTO(subject=thermodynamique, semester=1, type=cours, nombreQuestions=10)
+2025-11-23T01:30:59.800+01:00  INFO 34200 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] c.n.nextlearn.controller.QuizController  : Documents trouvés: 1
+2025-11-23T01:31:00.077+01:00  INFO 34200 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] c.n.nextlearn.controller.QuizController  : Texte extrait des documents (longueur: === Document: gfhgjhkjlkm ===
+Matière: thermodynamique
+Type: cours
+Semestre: S1
+Description: dfgfyghjklhgf
+Contenu:
+ 
+ 
+1 
+ 
+Neuvaine Madame AWA 
+Canevas : Prière d’ouverture, Psaume, Jour X, prière finale  
+Prière d’ouverture 
+Seigneur Dieu Tout-Puissant, dans ton amour infini, tu as rappelé auprès de toi ta servante 
+AWA MBILI Cécile.  Nous venons te confier son âme et déposer à tes pieds ses enfants. 
+Toi le père des Orphelins, couvre-les de ton amour et accorde-leur la consolation et la 
+force dont ils ont besoin. Daigne également poser ton regard sur toutes les personnes 
+qu’elle a connues : collègues, amis, élèves et connaissances. Par cette prière, nous qui 
+l’avons connue et aimée, unissons nos voix et nos cœurs, pour que Tu lui accordes le 
+repos. 
+Notre père, je vous salue Marie 
+Psaume 26 : Le Seigneur est ma lumière et mon salut 
+Ma lumière et mon salut, c’est le Seigneur, Alléluia ! 
+Le Seigneur est ma lumière et mon salut : de qui aurais-je crainte ? 
+Le Seigneur est le rempart de ma vie, devant qui tremblerais-je ? 
+J’ai demandé une chose au Seigneur, la seule que je cherche : 
+Habiter la maison du Seigneur, tous les jours de ma vie. 
+Ecoute Seigneur, je t’appelle ! Pitié ! Réponds-moi ! 
+Mon cœur m’a redit ta parole : « cherchez ma face ». 
+C’est ta face, Seigneur, que je cherche. Ne me cache pas ta face. 
+Mais, j’en suis sûr, je verrai les bontés du Seigneur sur la terre des vivants. 
+« Espère le Seigneur, sois fort et prends courage, espère le Seigneur. » 
+ 
+Jour 1 : 24 octobre 2025 
+Ô Dieu, souviens-toi des bonnes actions de ta servante, daigne lui pardonner ses péchés et lui 
+ouvrir les portes de ton royaume.  
+Jour 2 :  25 octobre 2025 
+Ô Dieu, Toi le père des orphelins, par ton Esprit-Saint Consolateur, apporte le réconfort aux 
+enfants de ta servante en peine. 
+Jour 3 : 26 octobre 2025 
+Ô Dieu, Toi qui as institué la famille comme socle de la vie humaine, viens déposer dans les 
+cœurs des membres de sa famille, paix et amour. 
+Jour 4 : 27 octobre 2025 
+Ô Dieu, Toi le protecteur des travailleurs, envoie la lumière de l’espérance dans les cœurs de 
+ses collègues, qu’ils gardent confiance en ta promesse de vie éternelle.  
+ 
+ 
+2 
+ 
+Jour 5 : 28 octobre 2025 
+Ô Dieu, Toi le Maître par excellence, Tu as permis à ta servante de vivre sa vocation 
+d’enseignante dans l’humilité et la joie. Accorde à ses élèves de fructifier les graines qu’elle a 
+semées en eux.  
+Jour6 : 29 octobre 2025 
+Ô Dieu, Toi qui as le don d’ubiquité et d’omniprésence, bénis les lieux où ta servante a œuvré. 
+Nous pensons particulièrement à Jean Tabi, que l’établissement demeure un lieu de solidarité 
+et d’entraide. 
+Jour7 :  30 octobre 2025 
+Ô Dieu, Toi qui t’es fait homme pour nous sauver du péché, fais-nous entrer en communion 
+avec ton corps ; que nous vivions dans l’humilité comme des pèlerins sur la terre. 
+Jour8 : 31 octobre 2025 
+Ô Dieu, Toi qui nous donnes le souffle de vie, par nos voix nous prions pour tous les défunts de 
+nos familles et en particulier pour ceux de la famille de ta servante, fais briller ta lumière sur 
+eux.  
+Jour9 :1 novembre 2025 
+Ô Dieu, Toi le miséricordieux, nous te supplions en ce dernier jour de neuvaine d’accorder à ta 
+servante, Awa Mbili Cécile, le repos éternel.    
+ 
+Prière finale 
+ 
+Après tous nos regards qui ont croisé le sien, 
+Accorde-lui, Seigneur, le repos éternel. 
+Après la joie et l’amour qui ont illuminé sa vie, 
+Accorde-lui, Seigneur, le repos éternel. 
+Après les peines et les larmes qui ont obscurci ses yeux, 
+Accorde-lui, Seigneur, le repos éternel. 
+Après le péché qui a terni son regard, 
+Accorde-lui, Seigneur, le repos éternel. 
+Elle a cherché la vérité dans la droiture de sa conscience, 
+Accorde-lui, Seigneur, le repos éternel. 
+Elle a cru en toi sans jamais t’avoir vu, 
+Accorde-lui, Seigneur, le repos éternel. 
+ 
+
+
+---
+ caractères)
+2025-11-23T01:31:25.897+01:00  INFO 34200 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] c.n.nextlearn.controller.QuizController  : Quiz généré par l'IA (longueur: 1826 caractères)
+2025-11-23T01:31:25.942+01:00  INFO 34200 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] c.n.nextlearn.controller.QuizController  : Quiz sauvegardé avec l'ID: 13
+=======
+2025-11-27T13:15:57.160+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27T13:15:57.258+01:00  INFO 26304 --- [nextlearn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T13:15:57.757+01:00  INFO 26304 --- [nextlearn] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-11-27T13:15:57.758+01:00  WARN 26304 --- [nextlearn] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-11-27T13:15:57.907+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-27T13:15:58.390+01:00  WARN 26304 --- [nextlearn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27T13:15:59.088+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-27T13:15:59.125+01:00  INFO 26304 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-11-27T13:15:59.135+01:00  INFO 26304 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Started NextlearnApplication in 6.863 seconds (process running for 7.505)
+2025-11-27T13:20:27.711+01:00  INFO 26304 --- [nextlearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-27T13:20:27.725+01:00  INFO 26304 --- [nextlearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-27T13:20:27.731+01:00  INFO 26304 --- [nextlearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T13:20:27.736+01:00  INFO 26304 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-27T13:20:27.746+01:00  INFO 26304 --- [nextlearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-27T13:20:31.982+01:00  INFO 18400 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Starting NextlearnApplication using Java 25.0.1 with PID 18400 (D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\Developpement\nextlearnbackend_spring\target\classes started by GIOVANNI CHARLES in D:\SAINT JEAN\ME\MES_PROJETS\NEXTLEARN\Developpement\nextlearnbackend_spring)
+2025-11-27T13:20:31.985+01:00  INFO 18400 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T13:20:32.047+01:00  INFO 18400 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-27T13:20:32.047+01:00  INFO 18400 --- [nextlearn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-27T13:20:33.070+01:00  INFO 18400 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27T13:20:33.158+01:00  INFO 18400 --- [nextlearn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2025-11-27T13:20:34.122+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-11-27T13:20:34.143+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-27T13:20:34.143+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-27T13:20:34.200+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-27T13:20:34.201+01:00  INFO 18400 --- [nextlearn] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2154 ms
+2025-11-27T13:20:34.472+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27T13:20:34.585+01:00  INFO 18400 --- [nextlearn] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-27T13:20:34.644+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-27T13:20:35.036+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27T13:20:35.064+01:00  INFO 18400 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-27T13:20:35.260+01:00  INFO 18400 --- [nextlearn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21ccf8fe
+2025-11-27T13:20:35.263+01:00  INFO 18400 --- [nextlearn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-27T13:20:35.323+01:00  WARN 18400 --- [nextlearn] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-11-27T13:20:35.350+01:00  INFO 18400 --- [nextlearn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-27T13:20:36.235+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27T13:20:36.364+01:00  INFO 18400 --- [nextlearn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T13:20:36.953+01:00  INFO 18400 --- [nextlearn] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-11-27T13:20:36.954+01:00  WARN 18400 --- [nextlearn] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-11-27T13:20:37.120+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-27T13:20:37.649+01:00  WARN 18400 --- [nextlearn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27T13:20:38.250+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-27T13:20:38.283+01:00  INFO 18400 --- [nextlearn] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-11-27T13:20:38.292+01:00  INFO 18400 --- [nextlearn] [restartedMain] c.n.nextlearn.NextlearnApplication       : Started NextlearnApplication in 7.025 seconds (process running for 7.752)
+2025-11-27T13:21:12.180+01:00  INFO 18400 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-27T13:21:12.180+01:00  INFO 18400 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-27T13:21:12.182+01:00  INFO 18400 --- [nextlearn] [http-nio-0.0.0.0-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+>>>>>>> 465e66e (update backend NextLearn)
